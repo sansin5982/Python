@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+
+# Navigation (Optional)
+title: "Python Fundamentals"
+description: "Python for Layman"
+
+# Enable navigation links
+include:
+    - chapters/
