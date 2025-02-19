@@ -85,7 +85,4 @@ a, b, c = 5, 10, 15
 
 * Variable names must follow specific rules.
 
-
-```python
-
-```
+[⬅ Back to Home](../index.md)
