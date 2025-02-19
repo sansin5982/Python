@@ -4,4 +4,4 @@ Chapters:
 
 -   [Introduction](chapters/Introduction)
 -   [Syntax and Variables](chapters/Syntax-and-Variable)
--   [Data Types and Operators](chapters/Data-Types-and-Operatora)
+-   [Data Types and Operators](chapters/Data-Types-and-Operators)
