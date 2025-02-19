@@ -57,7 +57,4 @@ print("Hello, World!")
 
 * Writing and executing Python programs is straightforward.
 
-
-```python
-
-```
+[⬅ Back to Home](../index.md)
