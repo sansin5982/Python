@@ -3,4 +3,4 @@
 Chapters:
 
 -   [Introduction](chapters/Introduction)
--   [Syntax and Variables](chapters/Syntax-and-variable)
+-   [Syntax and Variables](chapters/Syntax-and-Variable)
