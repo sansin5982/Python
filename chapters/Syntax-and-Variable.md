@@ -1,7 +1,7 @@
 # Python Syntax and Variables
 
 ## Python Syntax
-Python syntax is simple and follows indentation rules to define blocks of code rather than using braces {} like other programming languages.
+Python syntax is simple and follows indentation rules to define blocks of code rather than using braces `{}` like other programming languages.
 
 #### Example
 
