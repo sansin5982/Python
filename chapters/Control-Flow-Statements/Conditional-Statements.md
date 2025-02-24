@@ -22,8 +22,8 @@ print("Hello,", name)
 # The program then prints a greeting using the entered name.
 ```
 
-    Enter your name: Python
-    Hello, Python
+    Enter your name: Sandeep
+    Hello, Sandeep
     
 
 ### Using `if` Statement
@@ -39,7 +39,7 @@ if age >= 18:
     print("You are eligible to vote.")
 ```
 
-    Enter your age: 48
+    Enter your age: 42
     You are eligible to vote.
     
 
@@ -66,7 +66,7 @@ else:
     print("You are not eligible to vote.")
 ```
 
-    Enter your age: 25
+    Enter your age: 42
     You are eligible to vote.
     
 
@@ -95,8 +95,8 @@ else:
     print("Grade: D")
 ```
 
-    Enter your marks: 55
-    Grade: D
+    Enter your marks: 96
+    Grade: A
     
 
 #### Explanation:
@@ -161,7 +161,4 @@ print(f"Your grade is {grade}")
     Your grade is B
     
 
-
-```python
-
-```
+[⬅ Back to Control Flow](../Control-Flow-Statements.md)

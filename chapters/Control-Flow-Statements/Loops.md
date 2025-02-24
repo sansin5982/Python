@@ -20,7 +20,6 @@ The `range()` function generates a sequence of numbers and is commonly used in l
 
 
 ```python
-# syntax
 range(start, stop, step)
 ```
 
@@ -34,7 +33,7 @@ range(start, stop, step)
 
 
 ```python
-for i in range(5):
+for i in range(5): # i is iteration
     print(i)
 ```
 
@@ -397,4 +396,4 @@ while num <= 10:
     10
     
 
-[⬅ Back to Home](../index.md)
+[⬅ Back to Control Flow](../Control-Flow-Statements.md)
