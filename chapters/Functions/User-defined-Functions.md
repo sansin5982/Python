@@ -281,7 +281,7 @@ operation(5, 6, 7)
 
     TypeError                                 Traceback (most recent call last)
 
-    ~\AppData\Local\Temp\ipykernel_12440\852539860.py in <module>
+    ~\AppData\Local\Temp\ipykernel_2832\852539860.py in <module>
           2   return a * b
           3 
     ----> 4 operation(5, 6, 7)

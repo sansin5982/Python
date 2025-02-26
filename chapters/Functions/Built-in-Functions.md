@@ -2,7 +2,7 @@
 
 Python comes with many built-in functions that make programming easier. Here are 20 important built-in functions with examples:
 
-### `print()` 
+### print() 
 * Display output
 
 
@@ -13,7 +13,7 @@ print("Hello, World!")
     Hello, World!
     
 
-### `len()` 
+### len()
 * Returns the length of a sequence
 
 
@@ -24,7 +24,7 @@ print(len("Python"))
     6
     
 
-### `type()` 
+### type()
 * Returns the type of an object
 
 
@@ -35,7 +35,7 @@ print(type(10))
     <class 'int'>
     
 
-### `input()`
+### input()
 * Takes user input
 
 
@@ -48,7 +48,7 @@ print("Hello,", name)
     Hello, Sandeep
     
 
-### `int()` 
+### int()
 * Converts a value to an integer
 
 
@@ -59,7 +59,7 @@ print(int("10"))
     10
     
 
-### `float()`
+### float()
 * Converts a value to float
 
 
@@ -71,7 +71,7 @@ print(float("10.5"))
     10.5
     
 
-### `str()` 
+### str()
 * Converts a value to a string
 
 
@@ -95,7 +95,7 @@ type(a)
 
 
 
-### `abs()` 
+### abs()
 * Returns the absolute value
 
 
@@ -106,7 +106,7 @@ print(abs(-5))
     5
     
 
-### `max()`
+### max()
 * Returns the maximum value
 
 
@@ -121,7 +121,7 @@ max(10, 20, 30)
 
 
 
-### `min()`
+### min()
 * Returns the minimum value
 
 
@@ -136,7 +136,7 @@ min(10, 20, 30)
 
 
 
-### `sum()`
+### sum()
 * Return the sum of a sequence
 
 
@@ -151,7 +151,7 @@ sum([3, 4, 5, 6])
 
 
 
-### `round()`
+### round()
 * Round a number to the nearest integer
 
 
@@ -166,7 +166,7 @@ round(44/7, 2) # here 2 is for 2 values after decimals
 
 
 
-### `pow()` 
+### pow()
 * Returns the power of a number
 
 
@@ -212,7 +212,7 @@ list("hello")
 
 
 
-### `dict()`
+### dict()
 * Creates a dictionary
 
 
@@ -227,7 +227,7 @@ dict(name='Sandeep', age = 25)
 
 
 
-### `set`
+### set
 * Create a set
 
 
@@ -243,7 +243,7 @@ set([1, 2, 2, 3])
 
 
 
-### `tuple`
+### tuple
 * Converts a sequence into a tuple
 
 
@@ -258,7 +258,7 @@ tuple([1, 2, 3])
 
 
 
-### `enumerate()`
+### enumerate()
 * Returns index-value pairs
 
 
@@ -272,7 +272,7 @@ for i, v in enumerate(["a", "b", "c"]):
     2 c
     
 
-### `zip()`
+### zip()
 * Combines multiple sequences
 
 
