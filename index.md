@@ -10,6 +10,6 @@ Chapters:
         Statement](chapters/Control-Flow-Statements/Conditional-Statements)
     -   [Loops](chapters/Control-Flow-Statements/Loops)
 -   [Functions](chapters/Functions)
-    -   [Buit-in Functions](chapters/Functions/Built-in-Functions)
-    -   [User Defined
-        Functions](chapters/Functions/User-Defined-Functions)
+    -   [Built-in Functions](chapters/Functions/Built-in-Functions)
+    -   [User-Defined
+        Functions](chapters/Functions/User-defined-Functions)
