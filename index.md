@@ -13,3 +13,8 @@ Chapters:
     -   [Built-in Functions](chapters/Functions/Built-in-Functions)
     -   [User-Defined
         Functions](chapters/Functions/User-defined-Functions)
+    -   [Recursive Functions](chapters/Functions/Recursive-Functions)
+    -   [Lambda Functions](chapters/Functions/Lambda-Function)
+    -   [High-Order Functions](chapters/Functions/High-Order-Function)
+    -   [Real World High-Order
+        Functions](chapters/Functions/Real-World-HOF)

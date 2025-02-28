@@ -64,6 +64,47 @@ print(power(3, 3)) # exponent is given as 3
     27
     
 
+### Difference between `print()` and `return` in Python
+Both `print()` and `return` are used to display or provide output, but they serve **different purposes** in Python.
+
+|Feature|print()|return|
+|:---|:---|:---|
+|**Purpose**|Displays output on the console|Sends a value back to the caller|
+|**Where Used?**|Inside any function or script|Inside a function to pass data|
+|**Stores Data**|No, just print tot he screen|Yes, allow reuse of the result|
+|**Can be assigned to a varaible**|No|Yes|
+|**Effect on Execution**|Does not stop execution|Stops execution and exists the function|
+|**Use Case**|Debugging diplaying messages|Passing values for further computation|
+
+
+```python
+def add(a, b):
+    print(a+b)
+
+result = add(5, 3) # will give 8
+print("Result: ", result) # will give none
+```
+
+    8
+    Result:  None
+    
+
+* `print(a + b)` only displays the output `(8)`, but `result` is `None` because nothing is returned.
+
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print("Result: ", result)
+```
+
+    Result:  8
+    
+
+* `return` **sends the value** (`8`) back to the caller, allowing it to be **stored and reused.**
+
 ### Print if a number is even or odd in a given list
 
 
@@ -281,7 +322,7 @@ operation(5, 6, 7)
 
     TypeError                                 Traceback (most recent call last)
 
-    ~\AppData\Local\Temp\ipykernel_2832\852539860.py in <module>
+    ~\AppData\Local\Temp\ipykernel_10764\852539860.py in <module>
           2   return a * b
           3 
     ----> 4 operation(5, 6, 7)
