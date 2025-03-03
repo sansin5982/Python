@@ -5,6 +5,7 @@ Chapters:
 -   [Introduction](chapters/Introduction)
 -   [Syntax and Variables](chapters/Syntax-and-Variable)
 -   [Data Types and Operators](chapters/Data-Types-Operators)
+-   [Data Structures](chapters/Data-Structures)
 -   [Control Flow Statement](chapters/Control-Flow-Statements)
     -   [Conditional
         Statement](chapters/Control-Flow-Statements/Conditional-Statements)
