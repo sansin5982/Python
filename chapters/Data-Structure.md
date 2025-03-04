@@ -67,6 +67,7 @@ print(my_dict)
     
 
 #### Summary
+
 |Data Structure|Orderd|Mutable|Duplicates|Key:Value pair|
 |:---|:---|:---|:---|:---|
 |**List**|Yes|Yes|Yes|No|
