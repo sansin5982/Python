@@ -20,6 +20,160 @@ A list, tuple, set and dictionary in Python is a data type because it is a built
 
 However, lists can also be considered a data structure in a broader computer science sense, as they are used to store and manipulate collections of data. But in Python, lists are explicitly categorized as a data type.
 
+
+```python
+# integers
+a = 3
+type(a) # type is used to check the data types
+```
+
+
+
+
+    int
+
+
+
+
+```python
+# Floating-Point numbers
+# They are in decimals
+# Range: -10^308 to 10^308; 16 digits of precision
+pi = 3.14 # 
+type(pi)
+```
+
+
+
+
+    float
+
+
+
+
+```python
+# Scientific notation
+c = 6e4 # 6 * 10 * 4
+type(c)
+```
+
+
+
+
+    float
+
+
+
+
+```python
+# strings
+name = "Sandeep"
+type(name)
+```
+
+
+
+
+    str
+
+
+
+
+```python
+# Bloolean
+a = True
+type(a)
+```
+
+
+
+
+    bool
+
+
+
+#### All procedural programming -> Case sensitive(Python, C, C++, Java)
+#### All non-procedural languages -> Case insensitive (Sql, html)
+
+## Type conversion
+* Changing data types
+
+
+```python
+# convert float into integer value
+a = 5.2
+b = int(5) # it will convert into integer
+print(type(b))
+print(b)
+```
+
+    <class 'int'>
+    5
+    
+
+
+```python
+# convert integer into float value
+a = 5
+b = float(a)
+print(b)
+print(type(b))
+```
+
+    5.0
+    <class 'float'>
+    
+
+
+```python
+# converting string into number
+name = "Sandeep"
+a = int(name)
+type(a) # it will throw error as it is invalid
+```
+
+
+    ---------------------------------------------------------------------------
+
+    ValueError                                Traceback (most recent call last)
+
+    ~\AppData\Local\Temp\ipykernel_9572\3511620100.py in <module>
+          1 # converting string into number
+          2 name = "Sandeep"
+    ----> 3 a = int(name)
+          4 type(a) # it will throw error as it is invalid
+    
+
+    ValueError: invalid literal for int() with base 10: 'Sandeep'
+
+
+
+```python
+# convert numbers into string
+a = 5
+string1 = str(a)
+print(string1)
+print(type(string1))
+```
+
+    5
+    <class 'str'>
+    
+
+
+```python
+# convert numbers into boolean value
+# 0 is considered as False, and 1 or other numbers as True
+a = 5
+boolean1 = bool(a)
+print(boolean1)
+print(type(boolean1))
+```
+
+    True
+    <class 'bool'>
+    
+
 ## Operators
 Operators are used to perform operations on variables and values.
 
