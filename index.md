@@ -23,7 +23,6 @@ Chapters:
     -   [High-Order Functions](chapters/Functions/High-Order-Function)
     -   [Real World High-Order
         Functions](chapters/Functions/Real-World-HOF)
--   [Functions](chapters/Functions)
 -   [String Manipulation](chapters/String_Manipulation)
 -   [File Handling](chapters/File-Handling)
 -   [Exception Handling](chapters/Exception-Handling)
