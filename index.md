@@ -5,15 +5,15 @@ Chapters:
 -   [Introduction](chapters/Introduction)
 -   [Syntax and Variables](chapters/Syntax-and-Variable)
 -   [Data Types and Operators](chapters/Data-Types-Operators)
+-   [Control Flow Statement](chapters/Control-Flow-Statements)
+    -   [Conditional
+        Statement](chapters/Control-Flow-Statements/Conditional-Statements)
+    -   [Loops](chapters/Control-Flow-Statements/Loops)
 -   [Data Structures](chapters/Data-Structure)
     -   [List](chapters/Data-Structure/List)
     -   [Tuple](chapters/Data-Structure/Tuple)
     -   [Set](chapters/Data-Structure/Set)
     -   [Dictionary](chapters/Data-Structure/Dictionary)
--   [Control Flow Statement](chapters/Control-Flow-Statements)
-    -   [Conditional
-        Statement](chapters/Control-Flow-Statements/Conditional-Statements)
-    -   [Loops](chapters/Control-Flow-Statements/Loops)
 -   [Functions](chapters/Functions)
     -   [Built-in Functions](chapters/Functions/Built-in-Functions)
     -   [User-Defined

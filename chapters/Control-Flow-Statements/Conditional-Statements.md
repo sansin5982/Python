@@ -161,4 +161,90 @@ print(f"Your grade is {grade}")
     Your grade is B
     
 
+#### Q3: Write a Python script that checks if a variable n is an even number. If it is, print "n is even". Otherwise, print "n is odd"
+
+
+```python
+var = int(input("Enter a number: "))
+
+if var % 2 == 0:
+    print("number is even")
+else:
+    print("number is odd")
+```
+
+    Enter a number: 4
+    number is even
+    
+
+#### Q4: Write a Python script that checks whether a student is eligible for admission based on their age and exam score. If age is minor then it should not ask for exam score.
+* Age should be 18 or above
+* Exam score should be 70 or above
+
+
+```python
+age = int(input("Enter an age: "))
+
+if age >= 18:
+    score = int(input("Enter a score: "))
+    if score >= 70:
+        print("Eligible for admission")
+    else:
+        print("Score is less than 70, hence not eligible")
+else:
+    print("Student is minor, hence not eligible")
+```
+
+    Enter an age: 25
+    Enter a score: 85
+    Eligible for admission
+    
+
+#### Q5: A cinema charges different prices based on the age of the customer. The ticket prices are:
+* Children (under 12): Rs 50
+* Teens (12 to 17): Rs 80
+* Adults (18 to 64): Rs 120
+* Seniors (65 and older): Rs 70
+* Determine the ticket price for each person based on their age
+
+Their age are: ages = [10, 15, 25, 70, 95, 82, 76, 3, 45, 33]
+
+
+```python
+ages = [10, 15, 25, 70, 95, 82, 76, 3, 45, 33]
+
+for age in ages:
+    if age < 12:
+        ticket = 50
+    elif age <= 17:
+        ticket = 80
+    elif age <= 64:
+        ticket = 120
+    else:
+        ticket = 70
+    print(f"For age {age} the ticket price is${ticket}.")
+```
+
+    For age 10 the ticket price is$50.
+    For age 15 the ticket price is$80.
+    For age 25 the ticket price is$120.
+    For age 70 the ticket price is$70.
+    For age 95 the ticket price is$70.
+    For age 82 the ticket price is$70.
+    For age 76 the ticket price is$70.
+    For age 3 the ticket price is$50.
+    For age 45 the ticket price is$120.
+    For age 33 the ticket price is$120.
+    
+
+
+```python
+
+```
+
 [⬅ Back to Control Flow](../Control-Flow-Statements.md)
+
+
+```python
+
+```
