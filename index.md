@@ -24,10 +24,10 @@ Chapters:
     -   [Real World High-Order
         Functions](chapters/Functions/Real-World-HOF)
 -   [String Manipulation](chapters/String_Manipulation)
--   [File Handling](chapters/File-Handling)
--   [Regular Expression](chapters/RegEx)
+-   [File Handling](chapters/File-handling)
 -   [Exception Handling](chapters/Exception-Handling)
 -   [Modules and Libraries](chapters/Modules_Libraries)
+    -   [Regular Expression](chapters/Modules_Libraries/Modules/RegEx)
     -   [NumPy](chapters/Modules_Libraries/Libraries/NumPy/NumPy)
     -   [Pandas](chapters/Modules_Libraries/Libraries/Pandas/Pandas)
     -   [Matplotlib](chapters/Modules_Libraries/Libraries/Matplotlib/Matplotlib)
