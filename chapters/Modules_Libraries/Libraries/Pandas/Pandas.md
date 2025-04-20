@@ -32,8 +32,9 @@ print(pop)
 **Importance**: Easier indexing and operations like filtering, math, and mapping with labels.
 
 ## Series attributes
+
 |S.no.|function|Syntx|Explanation|
-|---|---|---|---|
+|:---|:---|:---|:---|
 |1.| index| Series.index| Return all the index values.|
 |2.| array| Series.array| Return array of values.|
 |3.| values| Series.values| Return values of series.|
@@ -118,7 +119,7 @@ b.size # size
 ### Basic mathematical operations
 
 |S.no.|Operations|Method 1|Method 2|Explanation|
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 |1| addition|a + b|a.add(b)|Addition|
 |2| substract|a - b|a.subtract(b)|Subtraction|
 |3| multiply|a * b|a.multiply(b)|Multiplication|
@@ -760,8 +761,9 @@ customers_indexed.join(orders_indexed, how='inner')
 
 
 ### Basic data exploration using pandas
+
 |S.no.|Function|Explanation|
-|---|---|---|
+|:---|:---|:---|
 |1|df.head()|examine first five observation we can assign more values in bracket too|
 |2|df.tail()|examine last five observation we can assign more values in bracket too|
 |3|df.shape|check the no of rows & columns in a data frame|
@@ -3738,7 +3740,4 @@ df.head()
 
 **Importance**: Enables saving analysis or sending it to collaborators
 
-
-```python
-
-```
+[⬅ Back to Control Flow](../Modules_Libraries/Libraries/Pandas/Pandas.md)
