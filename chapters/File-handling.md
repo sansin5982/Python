@@ -15,6 +15,7 @@ File handling allows Python programs to read from and write to files stored on d
 
 ## 🔹 Opening Files with `open()`
 `open(file, mode)` is used to open a file.
+
 | Mode | Description |
 |------|-------------|
 | `'r'` | Read mode (default) |
