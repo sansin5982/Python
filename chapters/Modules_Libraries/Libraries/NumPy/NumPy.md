@@ -1,4 +1,4 @@
-# Introduction
+# NumPy
 
 **NumPy** (short for **Numerical Python**) is a powerful **open-source Python library** used for numerical computations. It provides support for:
 
