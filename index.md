@@ -29,3 +29,6 @@ Chapters:
 -   [Exception Handling](chapters/Exception-Handling)
 -   [Modules and Libraries](chapters/Modules_Libraries)
     -   [NumPy](chapters/Modules_Libraries/Libraries/NumPy/NumPy)
+    -   [Pandas](chapters/Modules_Libraries/Libraries/Pandas/Pandas)
+    -   [Matplotlib](chapters/Modules_Libraries/Libraries/Matplotlib/Matplotlib)
+    -   [Seaborn](chapters/Modules_Libraries/Libraries/Seaborn/Seaborn)
