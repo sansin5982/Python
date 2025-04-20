@@ -28,4 +28,4 @@ Chapters:
 -   [Regular Expression](chapters/RegEx)
 -   [Exception Handling](chapters/Exception-Handling)
 -   [Modules and Libraries](chapters/Modules_Libraries)
-    -   [NumPy](chapters/Modules_Libraries/NumPy)
+    -   [NumPy](chapters/Modules_Libraries/Libraries/NumPy/NumPy)
