@@ -219,7 +219,7 @@ print(re.search("GCGCGCGC", Gene_Seq)) #
 
 
 ```python
-entence = "Learning GenAI is exciting"
+sentence = "Learning GenAI is exciting"
 
 # \b matches a word boundary
 # \w+ matches one or more word characters
@@ -231,21 +231,9 @@ print(x)
 print(x.span())  # shows the start and end position of the matched word
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    ~\AppData\Local\Temp\ipykernel_12732\1384414094.py in <module>
-          5 pattern = r"\be\w+"
-          6 
-    ----> 7 x = re.search(pattern, sentence)
-          8 
-          9 print(x)
+    <re.Match object; span=(18, 26), match='exciting'>
+    (18, 26)
     
-
-    NameError: name 'sentence' is not defined
-
 
 * It found the first word starting with 'e' → `'exciting'`
 * `.span()` returns (18, 26), which are the start and end character positions of the match in the string "Learning GenAI is exciting"
