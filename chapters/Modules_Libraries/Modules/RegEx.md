@@ -1,4 +1,4 @@
-# Regular expression or pattern matching
+# Regular Expression 
 
 **Regular Expressions** (RegEx) allow you to search for patterns in text using special syntax. It's a powerful tool for string processing, especially useful when working with messy or unstructured data.
 
@@ -231,9 +231,21 @@ print(x)
 print(x.span())  # shows the start and end position of the matched word
 ```
 
-    <re.Match object; span=(5, 11), match='course'>
-    (5, 11)
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    ~\AppData\Local\Temp\ipykernel_12732\1384414094.py in <module>
+          5 pattern = r"\be\w+"
+          6 
+    ----> 7 x = re.search(pattern, sentence)
+          8 
+          9 print(x)
     
+
+    NameError: name 'sentence' is not defined
+
 
 * It found the first word starting with 'e' → `'exciting'`
 * `.span()` returns (18, 26), which are the start and end character positions of the match in the string "Learning GenAI is exciting"
@@ -250,13 +262,6 @@ text = "Order ID: A5678, Customer: John"
 pattern = r"ID: (A\d+), Customer: (?P<name>\w+)"
 match = re.search(pattern, text)
 ```
-
-
-
-
-    (6, 31)
-
-
 
 * `.start()` → returns the starting index of the matched text in the original string
 * `.end()` → returns the ending index (exclusive) of the match
