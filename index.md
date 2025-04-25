@@ -27,6 +27,7 @@ Chapters:
 -   [File Handling](chapters/File-handling)
 -   [Exception Handling](chapters/Exception-Handling)
 -   [Modules and Libraries](chapters/Modules_Libraries)
+    -   [OS](chapters/Modules_Libraries/Modules/os)
     -   [Regular Expression](chapters/Modules_Libraries/Modules/RegEx)
     -   [NumPy](chapters/Modules_Libraries/Libraries/NumPy/NumPy)
     -   [Pandas](chapters/Modules_Libraries/Libraries/Pandas/Pandas)
