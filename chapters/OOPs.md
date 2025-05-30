@@ -11,6 +11,9 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes softw
 | **Methods**       | Functions that define behavior of the object (like `drive()` or `honk()`). |
 | **Encapsulation** | Bundling of data and methods inside one unit (object).                     |
 | **Constructor**   | Special method called when an object is created.                           |
+|**Abstraction**   | Showing only the necessary details and hiding the internal complexity from the user.|
+| **Inheritance**   | Inheritance is when a class (child) gets the properties and behaviors of another class (parent).|
+| **Polymorphism**   | Polymorphism means "many forms.                           |
 
 
 ### OOPs example
@@ -143,3 +146,39 @@ cust2.show_balance()
 | Real-world analogy | Step-by-step instruction book       | Blueprints + real-world instances             |
 | Flexibility        | Hard to adapt or scale              | Easy to modify and extend                     |
 
+
+### Best Practices in OOP
+1. **Initialize attributes** in `__init__()`:
+
+* Keeps your class organized.
+
+* Makes all attributes visible at object creation.
+
+2. **Naming conventions**:
+
+* Classes: `CamelCase` (e.g., `CustomerAccount`)
+
+* Methods and attributes: `lower_snake_case` (e.g., `set_name`, `balance_amount`)
+
+3. **Always use `self`**:
+
+* Refers to the specific instance calling the method.
+
+* It must be the first parameter in every method of a class.
+
+4. **Use docstrings**:
+
+* Describe what your class or method does.
+
+
+```python
+class Customer:
+    """
+    A class to represent a customer with name and balance.
+    """
+    def __init__(self, name, balance=0):
+        """Initialize name and balance"""
+        self.name = name
+        self.balance = balance
+
+```
