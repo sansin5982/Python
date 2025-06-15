@@ -35,7 +35,7 @@ Chapters:
     -   [Encapsulation](chapters/OOPs/Encapsulation)
     -   [Abstraction](chapters/OOPs/Abstraction)
     -   [Inheritance](chapters/OOPs/Inheritance)
-    -   [Polymorphisms](chapters/OOPs/Polymorphisms)
+    -   [Polymorphisms](chapters/OOPs/Polymorphism)
 -   [Modules and Libraries](chapters/Modules_Libraries)
     -   [OS](chapters/Modules_Libraries/Modules/os)
     -   [Regular Expression](chapters/Modules_Libraries/Modules/RegEx)
