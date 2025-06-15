@@ -43,4 +43,5 @@ Chapters:
     -   [Pandas](chapters/Modules_Libraries/Libraries/Pandas/Pandas)
     -   [Matplotlib](chapters/Modules_Libraries/Libraries/Matplotlib/Matplotlib)
     -   [Seaborn](chapters/Modules_Libraries/Libraries/Seaborn/Seaborn)
+    -   [TensoFlow](chapters/Modules_Libraries/Libraries/TensoFlow/TensoFlow)
     -   [PyTorch](chapters/Modules_Libraries/Libraries/Pytorch/PyTorch)
